@@ -1,0 +1,41 @@
+{
+  "name": "ama-tennis-academy-server",
+  "version": "1.0.0",
+  "description": "Backend server for AMA Tennis Academy booking system",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec ts-node index.ts",
+    "start": "node dist/index.js",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.5.0",
+    "jsonwebtoken": "^9.0.2",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "helmet": "^7.0.0",
+    "express-rate-limit": "^6.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "@types/node": "^20.5.0",
+    "@types/express": "^4.17.17",
+    "@types/jsonwebtoken": "^9.0.2",
+    "@types/bcryptjs": "^2.4.2",
+    "@types/cors": "^2.8.13",
+    "typescript": "^5.1.6"
+  },
+  "keywords": [
+    "tennis",
+    "academy",
+    "booking",
+    "scheduling",
+    "coach",
+    "management"
+  ],
+  "author": "AMA Tennis Academy",
+  "license": "MIT"
+} 

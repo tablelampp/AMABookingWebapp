@@ -1,0 +1,7 @@
+/* Add environment variables to globals.css */
+:root {
+  --mongodb-uri: mongodb://localhost:27017/ama-tennis-academy;
+  --jwt-secret: your-secret-key;
+  --port: 5000;
+  --client-url: http://localhost:3000;
+}
